@@ -5,7 +5,7 @@ from fastsql import *
 
 # db = database('data/utodos.db')
 # for sqlalchemy:
-url = 'postgresql://utodos:utodos@pgdb.raut.me:35433/utodos'
+url = 'postgresql://utodos:utodos@postgres:5432/utodos'
 db = Database(url)
 class User: name:str; pwd:str
 class Todo: id:int; title:str; done:bool; name:str; details:str; priority:int
