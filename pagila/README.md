@@ -211,13 +211,13 @@ pagila=#
 
 ## CREATE DATABASE ON [DOCKER-COMPOSE](https://docs.docker.com/compose/)
 
-1. Run:
+1. Run: Below in one terminal
 
 ```
-docker-compose up
+docker compose up 
 ```
 
-2. Done! Just use:
+2. Done! Just use: Below in another terminal
 
 ```
 docker exec -it pagila psql -U postgres
